@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Básica</title>
+    <link rel="stylesheet" href="./style007.css">
+</head>
+<body>
+    <h1 class="titulo">calculadora</h1>
+
+    <div class="soma"> 
+        <h1>Soma</h1>
+        <input type="number" id="soma1"> +
+        <input type="number" id="soma2"> <br>
+        <input type="button" value="Somar" onclick="somar()" class="res">
+        <div id="res_soma">RESULTADO</div>
+    </div>
+
+    <div class="sub">
+        <h1>Subtração</h1>
+        <input type="number" id="sub1"> -
+        <input type="number" id="sub2"> <br>
+        <input type="button" value="Subtrair" onclick="sub() " class="res">
+        <div id="res_sub">RESULTADO</div>
+    </div>
+
+    <div class="mult">
+        <h1>Multiplicação</h1>
+        <input type="number" id="mult1"> x
+        <input type="number" id="mult2"> <br>
+        <input type="button" value="Multiplicar" onclick="mult()" class="res">
+        <div id="res_mult">RESULTADO</div>
+    </div>
+
+    <div class="div">
+        <h1>Divisão</h1>
+        <input type="number" id="div1"> x
+        <input type="number" id="div2"> <br>
+        <input type="button" value="Dividir" onclick="div()" class="res">
+        <div id="res_div">RESULTADO</div>
+    </div>
+
+    <div class="reset">
+        <input type="button" value="RESETAR" onclick="reset()" class="res">
+    </div>
+
+    <script src="./script007.js"></script>
+</body>
+</html>
